@@ -1,0 +1,43 @@
+{
+  "name": "scrolling",
+  "repository": "git@github.com:pazguille/scrolling.git",
+  "description": "Decouple the scroll event from the callback functions.",
+  "author": "@pazguille <guille87paz@gmail.com>",
+  "version": "0.1.1",
+  "ignore": [
+    ".*",
+    "package.json",
+    "component.json",
+    "node_modules",
+    "gulpfile.js",
+    "**/.*",
+    "bower_components",
+    "test"
+  ],
+  "main": "dist/scrolling",
+  "license": "MIT",
+  "homepage": "https://github.com/pazguille/scrolling",
+  "moduleType": [
+    "adecouplemd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "scroll",
+    "scrolling",
+    "events",
+    "dom events"
+  ],
+  "authors": [
+    "@pazguille <guille87paz@gmail.com>"
+  ],
+  "_release": "0.1.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.1",
+    "commit": "caf49d16dbbe0a15442b0a53854753d721a07943"
+  },
+  "_source": "https://github.com/pazguille/scrolling.git",
+  "_target": "~0.1.1",
+  "_originalSource": "scrolling"
+}

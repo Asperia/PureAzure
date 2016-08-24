@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>
+        <div>_Layout.cshtml</div>
+        @RenderBody()
+    </div>
+    @*<environment names="Development">
+        <script src="~/js/site.js"></script>
+    </environment>
+    <environment names="Staging,Production">
+        <script src="~/js/site.js"></script>
+    </environment>*@
+
+    <script src="~/lib/stellar/libs/jquery/jquery-2.0.2.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="~/lib/classie/classie.js"></script>
+    <script src="~/lib/cbp-animated-header-fork/js/cbpAnimatedHeader.min.js"></script>
+    <script src="~/lib/jquery-easing/jquery.easing.min.js"></script>
+    <script src="~/lib/wow/dist/wow.min.js"></script>
+    <script src="~/lib/nanogallery/dist/jquery.nanogallery.min.js"></script>
+    <script src="~/lib/scrolling/dist/scrolling.min.js"></script>
+    <script src="~/js/scrolling.js"></script>
+    <script src="~/js/site.js"></script>
+
+
+
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>
